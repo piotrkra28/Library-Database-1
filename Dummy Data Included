@@ -1,0 +1,7 @@
+To simulate a real environment, the project includes:
+
+20 users
+20 genres and 20 subgenres
+20 books with various availability levels
+20 checkout records with varying statuses
+20 user reviews with different ratings and comments
