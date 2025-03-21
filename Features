@@ -1,0 +1,23 @@
+User Accounts
+Users can register with a username, email, and password. The system tracks when each user joined.
+
+Genre & Subgenre Categorization
+Books are classified into genres and subgenres, enabling precise filtering and recommendations.
+
+Book Inventory Management
+Each book entry contains details like title, author, year, and available vs. total copies. The database allows for checking availability and managing returns.
+
+Checkouts & Returns
+Tracks user checkouts, due dates, return status, and automatically identifies overdue books.
+
+Ratings & Reviews
+Users can leave 1–5 star ratings and textual feedback on books. The system aggregates average ratings and review counts.
+
+Advanced Views
+Includes multiple views for streamlined querying and reporting:
+
+View_BookAvailability: Check inventory status for all books.
+View_UserBorrowingHistory: View individual user borrowing histories.
+View_BookReviews: Aggregated ratings and review counts.
+View_ActiveReservations: Current active checkouts and due dates.
+View_PopularBooks: Most reviewed and highly rated books.
