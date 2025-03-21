@@ -1,0 +1,20 @@
+Here are examples of SQL operations performed in this project:
+
+Search by Author/Title:
+SELECT Title, Author FROM Books
+WHERE Author LIKE '%George%' OR Title LIKE '%Thrones%';
+
+
+Return a Book:
+UPDATE Checkouts
+SET ReturnDate = CURDATE(), Status = 'Returned'
+WHERE CheckoutID = 1 AND Status = 'CheckedOut';
+
+
+Identify Overdue Books:
+SELECT Users.Username, Books.Title
+FROM Checkouts
+JOIN Users ON Checkouts.UserID = Users.UserID
+JOIN Books ON Checkouts.BookID = Books.BookID
+WHERE Checkouts.Status = 'CheckedOut'
+  AND DATE_ADD(Checkouts.CheckoutDate, INTERVAL 14 DAY) < CURDATE();
