@@ -1,0 +1,3 @@
+Import the SQL file into your MySQL environment.
+Execute the statements to create the database and populate it with dummy data.
+Start querying or integrate with a backend/frontend for full-stack development.
