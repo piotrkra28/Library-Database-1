@@ -1,0 +1,7 @@
+Tables:
+
+Users: Stores user credentials and registration data.
+Genres / SubGenres: Categorizes books for easy lookup and filtering.
+Books: Central inventory with publication, author, and copy info.
+Checkouts: Manages loan status, return dates, and overdue records.
+Reviews: Stores user-submitted ratings and feedback.
